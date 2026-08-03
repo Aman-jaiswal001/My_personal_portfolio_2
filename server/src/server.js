@@ -22,30 +22,6 @@ const allowedOrigins = (
   .map(origin => origin.trim());
 
 
-
-// app.use(
-//   cors({
-//     origin: (origin, callback) => {
-//       if (!origin) {
-//         return callback(null, true);
-//       }
-
-//       if (
-//         allowedOrigins.includes(origin) ||
-//         /^http:\/\/localhost:517\d$/.test(origin)
-//       ) {
-//         return callback(null, true);
-//       }
-
-//       console.log("Blocked Origin:", origin);
-//       callback(new Error(`CORS blocked: ${origin}`));
-//     },
-//     credentials: true,
-//     methods: ["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"],
-//     allowedHeaders: ["Content-Type", "Authorization"],
-//   })
-// );
-
 app.get("/", (req, res) => res.send("server is running"));
 
 app.get("/api/health", (_req, res) => {

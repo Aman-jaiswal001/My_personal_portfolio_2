@@ -83,7 +83,6 @@ export default function AdminPanel({
         api.get("/api/admin/achievements"),
       ]);
 
-      console.log("56 - ", achievementResponse.data);
 
       setProjects(projectResponse.data);
       setAchievements(achievementResponse.data);
@@ -159,7 +158,6 @@ export default function AdminPanel({
         body,
       );
 
-      console.log("123 - ", data);
 
       setToast({
         type: "success",
