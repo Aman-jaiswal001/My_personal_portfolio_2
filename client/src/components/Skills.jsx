@@ -5,15 +5,19 @@ const skillGroups = [
       ['HTML', '80%'],
       ['CSS', '65%'],
       ['JavaScript', '55%'],
-      ['C++', '70%']
+      ['C/C++', '70%'],
+      ['DSA in C++', '65%']
     ]
   },
   {
     title: 'Core Skills',
     skills: [
-      ['Tailwind', '60%'],
+      ['Tailwind CSS', '60%'],
       ['React', '40%'],
-      ['DSA in C++', '65%']
+      ['NodeJs', '78%'],
+      ['ExpressJs', '80%'],
+      ['Database - SQL & MongoDB', '72%']
+      
     ]
   }
 ];

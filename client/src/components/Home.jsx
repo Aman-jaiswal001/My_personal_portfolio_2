@@ -25,13 +25,12 @@ Let's discuss something interesting!`);
           <span className="animate" style={{ '--i': 3 }} />
         </div>
         <p>
-          Hi, I'm Aman Jaiswal, a passionate student exploring web development and programming. I enjoy
-          learning new technologies and building creative projects that make everyday life easier.
+          I’m a BCA student and aspiring Software Engineer focused on MERN Stack Development and DSA in C++. I enjoy building modern, responsive web applications and solving complex problems through clean and efficient code. 🚀
           <span className="animate" style={{ '--i': 4 }} />
         </p>
 
         <div className="btn-box">
-          <a href="/PDF/Resume-AmanJaiswal.pdf" download className="btn">Resume</a>
+          <a href="/PDF/F_aman_jaiswal_resume.pdf" download className="btn">Resume</a>
           <a href="#" className="btn" onClick={handleLetsTalk}>Let's Talk</a>
           <span className="animate" style={{ '--i': 5 }} />
         </div>

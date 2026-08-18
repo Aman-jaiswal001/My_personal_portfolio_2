@@ -12,11 +12,9 @@ export default function About({ isVisible }) {
       </div>
 
       <div className="about-content">
-        <h3>Frontend Developer!<span className="animate scroll" style={{ '--i': 3 }} /></h3>
+        <h3>MERN Stack Developer | Full Stack Developer<span className="animate scroll" style={{ '--i': 3 }} /></h3>
         <p>
-          Hi, I'm Aman Jaiswal, a Frontend Developer who loves turning ideas into responsive and
-          user-friendly websites. I enjoy working with HTML, CSS, JavaScript, and modern frameworks
-          like React and Tailwind to build clean and interactive interfaces.
+          I’m Aman Jaiswal, a MERN Stack Developer and BCA student with a strong interest in full-stack web development and problem-solving using DSA in C++. I build responsive and scalable web applications using React.js, Node.js, Express.js, and MongoDB. I have developed projects including a social media platform and blogging platform, working with REST APIs, authentication, CRUD operations, and cloud services. I’m passionate about building real-world solutions and continuously improving my technical skills.
           <span className="animate scroll" style={{ '--i': 4 }} />
         </p>
         <div className="btn-box btns">
