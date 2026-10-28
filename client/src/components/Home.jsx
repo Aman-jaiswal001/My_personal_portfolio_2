@@ -30,7 +30,7 @@ Let's discuss something interesting!`);
         </p>
 
         <div className="btn-box">
-          <a href="/PDF/F_aman_jaiswal_resume.pdf" download className="btn">Resume</a>
+          <a href="/PDF/AmanJaiswal_MERN_stack_resume.pdf" download className="btn">Resume</a>
           <a href="#" className="btn" onClick={handleLetsTalk}>Let's Talk</a>
           <span className="animate" style={{ '--i': 5 }} />
         </div>
