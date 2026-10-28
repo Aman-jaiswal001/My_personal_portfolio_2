@@ -12,8 +12,10 @@
 }
 
 :root {
-    --bg-color: #081b29;
-    --second-bg-color: #112e42;
+    --bg-color: #230d2e;
+    /* --bg-color: #081b29; */
+    --second-bg-color: #0d363b;
+    /* --second-bg-color: #112e42; */
     /* --bg-color: #69e469;
     --second-bg-color: #05ce16; */
     --text-color: #ededed;
@@ -90,7 +92,7 @@ section {
     display: flex;
     align-items: center;
     padding: 0 9%;
-    background: url("/images/home6.jpg") no-repeat;
+    background: url("/images/newImg.png") no-repeat;
     background-size: cover;
     background-position: center;
     /* background-position: calc(); */
